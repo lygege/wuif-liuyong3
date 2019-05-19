@@ -1,0 +1,200 @@
+header{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+}
+header >a{
+    color: #4ebbfe;
+}
+
+.order{
+    height: 0.88rem;
+    padding: 0 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    font-size: 0.22rem;
+    color: #4ebbfe;
+}
+.order .hot{
+    color: #36d681;
+}
+.order li > .iconfont{
+    font-size: 0.22rem;
+    margin-left: 0.2rem;
+}
+/*order*/
+
+.list{
+    width: 100%;
+    position: absolute;
+    top: 2.7rem;
+    bottom: 0;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    background: #f0faff;
+}
+.listItem{
+    height: 1.74rem;
+    margin-bottom: 0.66rem;
+}
+
+.listItem .tu{
+    width: 1.74rem;
+    height: 100%;
+    background: #FFFFFF;
+    border-radius: 0.1px;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+.listItem .tu >a >img{
+    height: 1.19rem;
+    margin-top: 0.28rem;
+}
+.listItem .word{
+    width: 5.39rem;
+    height: 100%;
+    margin-left: 1.74rem;
+    background: #f0faff;
+}
+.listItem .word >a >p{
+    font-size: 0.3rem;
+    opacity: 0.6;
+    margin: 0.03rem 0 0 0.27rem;
+}
+.word >a span{
+    margin-left: 0.39rem;
+    font-size: 0.22rem;
+    color: #000000;
+    opacity: 0.3;
+    position: relative;
+}
+.word >a span::before{
+    content: '';
+    display: block;
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #4ebbfe;
+    position: absolute;
+    left: -0.1rem;
+    top: 0.12rem;
+}
+.word >a >span >b{
+    font-size: 0.26rem;
+    color: #4ebbfe;
+}
+.word ol li{
+    display: inline-block;
+    width: 1.21rem;
+    height: 0.35rem;
+    background: rgba(59,171,255,0.1);
+    color: #4ebbfe;
+    margin-left: 0.23rem;
+    border-radius: 0.18rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.35rem;
+}
+.listItem >a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.thumb{
+    width: 1.74rem;
+    height: 1.74rem;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    background: #FFFFFF;
+
+}
+.thumb img{
+    width: 100%;
+    height: 100%;
+}
+.info{
+    flex-grow: 1;
+    padding-left: 0.26rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info p{
+    font-size: 0.3rem;
+    color: #646666;
+}
+.info .score{
+    font-size: 0.22rem;
+    color: #afb1b2;
+}
+.info .score span{
+    margin-right: 0.58rem;
+}
+.info .score b{
+    font-size: 0.26rem;
+    color: #36a8fe;
+}
+.tag  span{
+    display: block;
+    width: 1.2rem;
+    height: 0.36rem;
+    background: #e7f6ff;
+    font-size: 0.2rem;
+    color: #36a8fe;
+    border-radius: 0.18rem;
+    float: left;
+    text-align: center;
+    line-height: 0.36rem;
+}
+.total{
+    font-size: 0.18rem;
+    color: #c2c4c5;
+}
+.total span{
+    padding-left: 0.15rem;
+    position: relative;
+}
+.total span::before{
+    content: '';
+    display: block;
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #4ebbfe;
+    position: absolute;
+    left: 0rem;
+    top: 0.16rem;
+}
+.info .score span{
+    position: relative;
+    padding-left: 0.15rem;
+
+}
+.info .score span::before{
+    content: '';
+    display: block;
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: #4ebbfe;
+    position: absolute;
+    left: 0rem;
+    top: 0.16rem;
+}
+.listItem a{
+    position: relative;
+}
+.price{
+    font-size: 0.26rem;
+    color: #fbb548;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
